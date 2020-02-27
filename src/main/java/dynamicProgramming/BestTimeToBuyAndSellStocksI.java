@@ -6,7 +6,7 @@ import java.util.List;
  * @author RakhmedovRS
  * @created 20-Feb-20
  */
-public class BestTimeToBuyAndSellStocks1
+public class BestTimeToBuyAndSellStocksI
 {
 	public int maxProfit(List<Integer> prices)
 	{
