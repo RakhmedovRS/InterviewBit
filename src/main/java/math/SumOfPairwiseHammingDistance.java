@@ -16,10 +16,9 @@ public class SumOfPairwiseHammingDistance
 		{
 			long ones = 0;
 			long zeros = 0;
-			for (int numPos = 0; numPos < size; numPos++)
+			for (int num : nums)
 			{
-				int a = nums.get(numPos);
-				int bit = (a >> bitPos) & 1;
+				int bit = (num >> bitPos) & 1;
 				if (bit == 1)
 				{
 					ones++;
